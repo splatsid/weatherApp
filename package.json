@@ -1,0 +1,19 @@
+{
+  "name": "p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splatsid/weatherApp.git"
+  },
+  "author": "Sid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splatsid/weatherApp/issues"
+  },
+  "homepage": "https://github.com/splatsid/weatherApp#readme"
+}
