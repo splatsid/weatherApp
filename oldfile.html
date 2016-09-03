@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <div class="jumbotron">
-    <h1> <b>Weather Check</b> </h1>
-  </div>
     <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
           <link href = "weatherBoxes.css" rel ="stylesheet" >
-        </head>
-        <button id = "btn" type = "button" class = "btn btn-info btn-block">Show Weather</button>
-        <div class= "main">
-        <p id = "location"> </p>
-        <p id = "temperature" ></p>
-      </div>
-          <div class = "panel panel-default">
-            <div class = "panel-footer">
+  </head>
+
+    <body>
+            <div id = "container">
+              <div class="jumbotron">
+                <h1> Weather App </h1>
+              </div>
+              <hr>
+          <div class ="container-fluid">
+            <h2> Weather ForecastWeather</h2>
+                <FORM name = "weather">
+                <input type = "button" id="btn" value = "Generate Weather" />
+                 </FORM>
+                 <p id="location"></p>
+                 <p id="temperature"></p>
+          </div>
+          <div id = "footer">
             <h3> Made by Sid Partha </h3>
             <a href="https://www.facebook.com/sharer/sharer.php?u=google.com" target="_blank">
   Share on Facebook
 </a>
           </div>
-        </div>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js" ></script>.
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js" ></script>
 <script src="weatherLogic.js"></script>
 
 </body>
