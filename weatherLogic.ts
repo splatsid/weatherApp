@@ -2,6 +2,7 @@ var $;
 var position
 var timezoneJs;
 var loc;
+var Maplace;
 if("geolocation in navigator"){
   position = navigator.geolocation.getCurrentPosition(function(position){  loc = position.coords.latitude + ',' + position.coords.longitude;
 });
