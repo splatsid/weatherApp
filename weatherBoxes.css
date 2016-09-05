@@ -18,3 +18,7 @@ text-align: left;
 .main{
   text-align: center;
 }
+
+#foot{
+  position:relative;
+}

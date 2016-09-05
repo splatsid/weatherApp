@@ -3,6 +3,7 @@ var position
 var timezoneJs;
 var loc;
 var Maplace;
+var $;
 if("geolocation in navigator"){
   position = navigator.geolocation.getCurrentPosition(function(position){  loc = position.coords.latitude + ',' + position.coords.longitude;
 });
@@ -30,3 +31,5 @@ button.onclick = function(){
     });
   });
 };
+
+$(".foot").fittext();
