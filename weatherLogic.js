@@ -12,6 +12,9 @@ if ("geolocation in navigator") {
 else {
     loc = 'Auckland, NZ';
 }
+if (position == null) {
+    loc = 'Auckland, NZ';
+}
 var button = document.getElementById("btn");
 button.onclick = function () {
     $(document).ready(function () {
