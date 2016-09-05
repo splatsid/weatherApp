@@ -12,9 +12,6 @@ if ("geolocation in navigator") {
 else {
     loc = 'Auckland, NZ';
 }
-if (position == null) {
-    loc = 'Auckland, NZ';
-}
 var button = document.getElementById("btn");
 button.onclick = function () {
     $(document).ready(function () {
@@ -27,7 +24,7 @@ button.onclick = function () {
                 document.getElementById("temperature").innerHTML = weather.temp + "°" + weather.units.temp;
             },
             error: function (error) {
-                document.getElementById("location").innerHTML = "WTF";
+                document.getElementById("location").innerHTML = "error";
             }
         });
     });
